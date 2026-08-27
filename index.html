@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone-Paper-Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>!!!...................Let's Play : Stone-Paper-Scissors .......................!!!</h1>
+    <div class="choices">
+        <div class="choice" id="Rock">
+            <img src="images/rock.png">
+        </div>
+        <div class="choice" id="Paper">
+            <img src="images/paper.png">
+        </div>
+        <div class="choice" id="Scissors">
+            <img src="images/scissors.png">
+        </div>                
+    </div>
+    <div class="scoreboard">
+        <div id="userscore">
+            <p>UserScore : 0 </p>
+        </div>
+        <div id="compscore">
+            <p>Compscore : 0 </p>
+        </div>
+        <div id="msg">
+            <p>The Winner is :</p>
+        </div>
+    </div>
+    <!-- Add reset button below scoreboard -->
+    <button id="reset-btn" style="display: none;">🔄 Reset Game</button>
+    <script src="app.js"></script>
+</body>
+</html>
